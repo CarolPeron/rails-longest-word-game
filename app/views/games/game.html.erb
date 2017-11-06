@@ -1,0 +1,22 @@
+
+
+<div style="text-align: center;">
+<h1>Welcome to the word game</h1>
+<p>What's the largest word that you can form from these letters</p>
+
+<p>
+  <%= @grid %>
+</p>
+<% start_time = Time.now %>
+
+<form action="/score">
+  <input type="hidden" name="grid" value="<%= @grid.join %>">
+  <input type="hidden" name="start_time" value="<%= @start_time %>">
+  <br>
+  <label for="guess">What's your best shot?</label>
+  <input type="text" id="guess" name="guess" placeholder="your guess">
+  <br>
+  <br>
+  <input type="submit" class="btn" value="Go on!">
+</form>
+

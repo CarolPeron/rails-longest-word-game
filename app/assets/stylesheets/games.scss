@@ -1,0 +1,56 @@
+
+body {
+  background-color: #F8F8FF
+}
+
+h1 {
+  color: blue;
+  font-family: arial;
+  font-size: 26;
+}
+
+p, label {
+  color: blue;
+  font-family: arial;
+  font-size: 24;
+}
+
+div {
+  margin-top: 150px;
+}
+
+input {
+  border-radius: 3px;
+  border-color: blue;
+  color: blue
+}
+
+.btn {
+  background: #d93484;
+  background-image: -webkit-linear-gradient(top, #d93484, #2980b9);
+  background-image: -moz-linear-gradient(top, #d93484, #2980b9);
+  background-image: -ms-linear-gradient(top, #d93484, #2980b9);
+  background-image: -o-linear-gradient(top, #d93484, #2980b9);
+  background-image: linear-gradient(to bottom, #d93484, #2980b9);
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: Arial;
+  color: #eaedf2;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #fce23c;
+  background-image: -webkit-linear-gradient(top, #fce23c, #d98134);
+  background-image: -moz-linear-gradient(top, #fce23c, #d98134);
+  background-image: -ms-linear-gradient(top, #fce23c, #d98134);
+  background-image: -o-linear-gradient(top, #fce23c, #d98134);
+  background-image: linear-gradient(to bottom, #fce23c, #d98134);
+  text-decoration: none;
+}
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
